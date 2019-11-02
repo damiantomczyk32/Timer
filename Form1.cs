@@ -40,7 +40,7 @@ namespace Timer
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            counter = counter.AddSeconds(2);
+            counter = counter.AddSeconds(3);
             label1.Text = counter.ToString("HH:mm:ss");
         }
     }
