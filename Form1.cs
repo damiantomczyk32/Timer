@@ -21,7 +21,7 @@ namespace Timer
             label1.Text = startStatus.ToString("HH:mm:ss");
             counter = startStatus;
         }
-
+		//Text1
         private void button1_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
